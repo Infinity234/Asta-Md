@@ -2,7 +2,7 @@ import { canLevelUp, xpRange } from '../lib/levelling.js';
 
 let handler = async (m, { conn }) => {
     let name = conn.getName(m.sender);
-    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.imgur.com/whjlJSf.jpg');
+    let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://leadier-umbrellas.000webhostapp.com/asta2.jpg');
     let user = global.db.data.users[m.sender];
     let background = 'https://i.ibb.co/4YBNyvP/images-76.jpg'; // Fixed background URL
 

@@ -7,16 +7,16 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['2348039607375', 'GURU', true],
-  ['6281255369012', 'Ash', true], 
+  ['2348039607375', 'ASTA', true],
+  ['6281255369012', 'ASTRO', true], 
   [''] 
 ] //Number of owners
 
 //global.pairingNumber = "" //put your bot number here
 
 global.mods = ['2348039607375','2349027862116'] 
-global.prems = ['2348039607375', '2349027862116', '919398758484']
-global.allowed = ['2348039607375', '2349027862116', '19152999993']
+global.prems = ['2348039607375', '2349027862116']
+global.allowed = ['2348039607375', '2349027862116']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -25,8 +25,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.APIs = { // API Prefix
-  // name: 'https://website'
+global.APIs = { 
   xteam: 'https://api.xteam.xyz', 
   dzx: 'https://api.dhamzxploit.my.id',
   lol: 'https://api.lolhuman.xyz',
@@ -53,7 +52,7 @@ global.botname = 'ᴀꜱᴛᴀ-ᴍᴅ'
 global.premium = 'true'
 global.packname = 'ᴀꜱᴛᴀ-ᴍᴅ' 
 global.author = '@Astro' 
-global.menuvid = 'https://i.imgur.com/I5Kgbwa.mp4'
+global.menuvid = 'https://i.imgur.com/1lydjZW.mp4'
 global.igfg = '▢ Follow on Github\nhttps://github.com\Astropeda\n' 
 global.dygp = 'https://chat.whatsapp.com/L1XNePCPC8O6rw9JeQ0iLB'
 global.fgsc = 'https://github.com/Astropeda/Asta-Md' 

@@ -10,7 +10,7 @@ import _0x3c5eee from "cfonts";
 const {
   say
 } = _0x3c5eee;
-say("GURU - V2", {
+say("ASTRO - V2", {
   font: "block",
   align: "center",
   colors: ["#ff9900"],
@@ -20,7 +20,7 @@ say("GURU - V2", {
   space: true,
   maxLength: "15"
 });
-say("GURU-BOT-V2 By Guru._.", {
+say("Asta-Md-V2 By Asta._.", {
   font: "chrome",
   align: "center",
   colors: ["red", "magenta"],
@@ -73,14 +73,14 @@ async function start(_0x733d1b) {
     }
     _0x1c8846.watchFile(_0x314900[0], () => {
       _0x1c8846.unwatchFile(_0x314900[0]);
-      start("Guru.js");
+      start("Asta.js");
     });
   });
   _0x4d851d.on("error", _0x565628 => {
     console.error(_0x16d8a4.red("Error: " + _0x565628));
     _0x4d851d.kill();
     isRunning = false;
-    start("Guru.js");
+    start("Asta.js");
   });
   const _0x590b3f = _0x418a10.join(_0x418a10.dirname(_0x2cd599), "plugins");
   _0x1c8846.readdir(_0x590b3f, async (_0x295a55, _0x1f00fa) => {
@@ -100,13 +100,13 @@ async function start(_0x733d1b) {
     }
   });
 }
-start("Guru.js");
+start("Asta.js");
 process.on("unhandledRejection", () => {
   console.error(_0x16d8a4.red("Unhandled promise rejection. Bot will restart..."));
-  start("Guru.js");
+  start("Asta.js");
 });
 process.on("exit", _0x1d6264 => {
   console.error(_0x16d8a4.red("Exited with code: " + _0x1d6264));
   console.error(_0x16d8a4.red("Bot will restart..."));
-  start("Guru.js");
+  start("Asta.js");
 });

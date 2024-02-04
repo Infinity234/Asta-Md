@@ -7,8 +7,8 @@ const { levelling } = '../lib/levelling.js'
 import moment from 'moment-timezone'
 import { promises } from 'fs'
 import { join } from 'path'
-const time = moment.tz('Asia/Kolkata').format('HH')
-let wib = moment.tz('Asia/Kolkata').format('HH:mm:ss')
+const time = moment.tz('Africa/Lagos').format('HH')
+let wib = moment.tz('Africa/Lagos').format('HH:mm:ss')
 //import db from '../lib/database.js'
 
 let handler = async (m, { conn, usedPrefix, command}) => {
@@ -37,34 +37,29 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-🚀 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🚀
+*_Get Ready ${name}, ${greeting}! We're going on an adventure!_*
 
-📜 *_Quote of the day: ${quote}_* 📜
+ *_Quote of the day: ${quote}_* 
 
-┏━💼 _User Info:_ 💼━┓
-┃ 👾  *User Tag:* ${taguser} 
-┃ 🎩  *Name:* ${name} 
-┃ 🦸  *Master Mind:* ${author} 
-┃ 💎  *Diamonds:* ${diamond} 
-┃ 🏆  *Rank:* ${role}
-┃ 🎮  *XP:* ${exp} 
+┏━_User Info:_━┓
+┃ *User Tag:* ${taguser} 
+┃ *Name:* ${name} 
+┃ *Master Mind:* ${author} 
 ┗━━━━━━━━━━━┛
 
-┏━━⏰ _Today's Sauce!_ ⏰━┓
-┃ 📆  *Today's Date:* ${date} 
-┃ ⏲️  *Current Time:* ${wib} 
+┏━━ _Today's Sauce!_━┓
+┃   *Today's Date:* ${date} 
+┃   *Current Time:* ${wib} 
 ┗━━━━━━━━━━━━━┛
 
-┏━━🤖 _BOT STATUS:_🤖━━┓
-┃ 🤡  *Bot Name:* ${botname} 
-┃ 💻  *Platform:* Linux 
-┃ 📣  *Prefix:* ${usedPrefix} 
-┃ 🕓  *Uptime:* ${uptime}
-┃ 💌  *Database:* ${rtotalreg} of ${totaluser} 
-┃ 📚  *Total Users:* ${totaluser} 
+┏━━_BOT STATUS:_━━┓
+┃  *Bot Name:* ${botname} 
+┃   *Platform:* Linux 
+┃   *Prefix:* ${usedPrefix} 
+┃   *Uptime:* ${uptime}
+┃   *Database:* ${rtotalreg} of ${totaluser} 
+┃   *Total Users:* ${totaluser} 
 ┗━━━━━━━━━━━━━┛
-
-💡 *_Remember, when in doubt, use ${usedPrefix}list or ${usedPrefix}help2. It's like my magic spell book!_* 💡
 `
 
 
@@ -84,7 +79,7 @@ function clockString(ms) {
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
     
     function ucapan() {
-      const time = moment.tz('Asia/Kolkata').format('HH')
+      const time = moment.tz('Africa/Lagos').format('HH')
       let res = "happy early in the day☀️"
       if (time >= 4) {
         res = "Good Morning 🌄"

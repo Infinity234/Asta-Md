@@ -16,7 +16,7 @@ let handler = async (m, { conn }) => {
       // Remove the chosen course from the list so it's not chosen again
       json.courses.splice(randomIndex, 1);
 
-      courseData += `❖ Course: ${course.name}\n❖ Link: ${course.udemyLink}\n\n`;
+      courseData += ` Course: ${course.name}\n Link: ${course.udemyLink}\n\n`;
     }
 
     courseData += '•───── ୨❀୧ ─────•';

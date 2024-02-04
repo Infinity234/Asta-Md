@@ -1,4 +1,4 @@
-//GURU ka maal hai
+//ASTRO ka maal hai
 //https://github.com/Astropeda/Asta-Md
 
 import fetch from 'node-fetch';
@@ -23,7 +23,7 @@ let handler = async (m, { conn, text }) => {
     console.log(response);
     let json = await response.json();
 
-    json.creator = 'GURU';
+    json.creator = 'ASTRO';
 
     let milf = '';
     for (let prop in json) {

@@ -42,7 +42,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let speed = neww - old
   let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './Guru.jpg')
+let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './asta-anime3.jpg')
 let user = global.db.data.users[who]
   
 let infobt = `
@@ -56,13 +56,13 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *GURU*
+  *ASTRO*
 ▢ Instagram :
   • https://instagram.com/asli_guru69
 ▢ GitHub :
   • https://github.com/Guru322
 ▢ Telegram : 
-  • t.me/i_want_to_be_isekaied (GURU) 
+  • t.me/i_want_to_be_isekaied (ASTRO) 
 ▢ YouTube : 
   • astromedia0010@outlook.com
 

@@ -1,7 +1,7 @@
 import displayLoadingScreen from '../lib/loading.js'
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-let pp = 'https://i.pinimg.com/736x/eb/a7/25/eba725b9c8df5d9b199e950694f18aaf.jpg'
+let pp = 'https://leadier-umbrellas.000webhostapp.com/asta2.jpg'
 await displayLoadingScreen(conn, m.chat)
 	let _muptime
     if (process.send) {
@@ -12,7 +12,7 @@ await displayLoadingScreen(conn, m.chat)
       }) * 1000
     }
     let muptime = clockString(_muptime)
-    let str = `あR U N T I M Eあ \n\n${muptime}`
+    let str = `ʀᴜɴᴛɪᴍᴇ \n\n${muptime}`
     conn.sendMessage(m.chat, {
       text: str,
       contextInfo: {
@@ -26,10 +26,10 @@ await displayLoadingScreen(conn, m.chat)
             },
       forwardingScore: 999,
       externalAdReply: {
-      title: "ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ",
-      body: "R U N T I M E",
+      title: "ᴀꜱᴛᴀ-ᴍᴅ",
+      body: "ʀᴜɴᴛɪᴍᴇ",
       thumbnailUrl: pp,
-      sourceUrl: 'https://guruapi.tech',
+      sourceUrl: 'https://github.com/Astropeda',
       mediaType: 1,
       renderLargerThumbnail: false
       }}})

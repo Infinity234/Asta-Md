@@ -19,15 +19,15 @@
         "whatsapp",
         "js-whatsapp",
         "whatsapp",
-        "guru-bot",
-        "GURU-bot-md",
+        "Asta-Md",
+        "Asta-Md-md",
         "multi-device",
         "MD",
         "baileys-md"
     ],
     "homepage": "https://github.com/Astropeda/Asta-Md",
     "author": {
-        "name": "GURU"
+        "name": "ASTRO"
     },
     "repository": {
         "type": "git",
@@ -36,7 +36,6 @@
     "bugs": {
         "url": "https://github.com/Astropeda/Asta-Md/issues"
     },
-    "license": "Apache License 2.0",
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
         "@bochilteam/scraper": "^4.0.22-alpha.0",
