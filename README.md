@@ -1,6 +1,6 @@
 <p align="center">  
   <a href="https://chat.whatsapp.com/L1XNePCPC8O6rw9JeQ0iLB">
-    <img alt="Asta" height="300" src="https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg">
+    <img alt="Asta" height="300" src="https://i.imgur.com/Yv8MBql.jpeg">
     <h1 align="center">ᴀꜱᴛᴀ-ᴍᴅ</h1>
   </a>
 </p>

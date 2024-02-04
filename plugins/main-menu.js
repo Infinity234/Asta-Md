@@ -13,470 +13,379 @@ import {
 
   
    let groupmenu = `
-   ✦ ───『 *group* 』─── ⚝
-  ◈ .getbio <@tag/reply>  Ⓛ
-  ◈ .animequote
-  ◈ .Setdesc <text>
-  ◈ .setname <text>
-  ◈ .add
-  ◈ .delete
-  ◈ .delwarn @user
-  ◈ .demote (@tag)
-  ◈ .infogp
-  ◈ .hidetag
-  ◈ .invite <917xxx>
-  ◈ .kick @user
-  ◈ .link
-  ◈ .poll question|option|option
-  ◈ .profile
-  ◈ .promote
-  ◈ .resetlink
-  ◈ .setbye <text>
-  ◈ .group *open/close*
-  ◈ .setwelcome <text>
-  ◈ .simulate <event> @user
-  ◈ .staff
-  ◈ .tagall
-  ◈ .totag
-  ◈ .warn @user
-  ◈ .warns
-  ◈ .main
-  ╰──────────⳹`
+   『 *ɢʀᴏᴜᴘ ᴍᴇɴᴜ* 』
+  ⬡│▸ .getbio
+  ⬡│▸ .animequote
+  ⬡│▸ .Setdesc 
+  ⬡│▸ .setname
+  ⬡│▸ .add
+  ⬡│▸ .delete
+  ⬡│▸ .delwarn
+  ⬡│▸ .demote
+  ⬡│▸ .infogp
+  ⬡│▸ .hidetag
+  ⬡│▸ .invite
+  ⬡│▸ .kick
+  ⬡│▸ .link
+  ⬡│▸ .poll question|option|option
+  ⬡│▸ .profile
+  ⬡│▸ .promote
+  ⬡│▸ .resetlink
+  ⬡│▸ .setbye
+  ⬡│▸ .group *open/close*
+  ⬡│▸ .setwelcome
+  ⬡│▸ .simulate
+  ⬡│▸ .staff
+  ⬡│▸ .tagall
+  ⬡│▸ .totag
+  ⬡│▸ .warn
+  ⬡│▸ .warns
+  ⬡│▸ .main
+  ╰──────────➛`
   
   let ownermenu = `
-  ✦ ───『 *owner* 』─── ⚝
-  ◈ .addprem <@tag>
-  ◈ .addowner @user
-  ◈ .allow <@tag>
-  ◈ .HEROKU
-  ◈ .ban @user
-  ◈ .banchat
-  ◈ .tx
-  ◈ .broadcastgroup <text>
-  ◈ .bcgc <text>
-  ◈ .cleartmp
-  ◈ .delexpired
-  ◈ .delprem @user
-  ◈ .removeowner @user
-  ◈ .setppbotfull
-  ◈ .getplugin <name file>
-  ◈ .getfile <name file>
-  ◈ .join <chat.whatsapp.com> <dias>
-  ◈ .reset <54xxx>
-  ◈ .resetprefix
-  ◈ .restart
-  ◈ ..setprefix
-  ◈ ..setprefix [symbol]
-  ◈ .unban @user
-  ◈ .unbanchat
-  ◈ .update
-  ◈ .config
-  ◈ .listban
-  ◈ .deleteplugin <name>
-  ╰──────────⳹`
+  『 *ᴏᴡɴᴇʀ ᴍᴇɴᴜ* 』
+  ⬡│▸ .addprem <>
+  ⬡│▸ .addowner @user
+  ⬡│▸ .allow <>
+  ⬡│▸ .HEROKU
+  ⬡│▸ .ban @user
+  ⬡│▸ .banchat
+  ⬡│▸ .tx
+  ⬡│▸ .broadcastgroup 
+  ⬡│▸ .bcgc 
+  ⬡│▸ .cleartmp
+  ⬡│▸ .delexpired
+  ⬡│▸ .delprem @user
+  ⬡│▸ .removeowner @user
+  ⬡│▸ .setppbotfull
+  ⬡│▸ .getplugin <name file>
+  ⬡│▸ .getfile <name file>
+  ⬡│▸ .join <chat.whatsapp.com> <dias>
+  ⬡│▸ .reset <54xxx>
+  ⬡│▸ .resetprefix
+  ⬡│▸ .restart
+  ⬡│▸ ..setprefix
+  ⬡│▸ ..setprefix [symbol]
+  ⬡│▸ .unban @user
+  ⬡│▸ .unbanchat
+  ⬡│▸ .update
+  ⬡│▸ .config
+  ⬡│▸ .listban
+  ⬡│▸ .deleteplugin <name>
+  ╰──────────➛`
   
   let funmenu = `
-  ✦ ───『 *fun* 』─── ⚝
-  ◈ .afk <reason>
-  ◈ .tomp3
-  ◈ .toav
-  ◈ .bot
-  ◈ .character @tag
-  ◈ .dare
-  ◈ .flirt
-  ◈ .gay @user
-  ◈ .pickupline
-  ◈ .question
-  ◈ .shayari
-  ◈ .ship
-  ◈ .yomamajoke
-  ◈ .truth
-  ◈ .waste @user
-  ◈ .image
-  ◈ .meme
-  ◈ .quote
-  ╰──────────⳹`
+  『 *ꜰᴜɴ ᴍᴇɴᴜ* 』
+  ⬡│▸ .afk
+  ⬡│▸ .tomp3
+  ⬡│▸ .toav
+  ⬡│▸ .bot
+  ⬡│▸ .character
+  ⬡│▸ .dare
+  ⬡│▸ .flirt
+  ⬡│▸ .pickupline
+  ⬡│▸ .question
+  ⬡│▸ .shayari
+  ⬡│▸ .ship
+  ⬡│▸ .yomamajoke
+  ⬡│▸ .truth
+  ⬡│▸ .waste
+  ⬡│▸ .image
+  ⬡│▸ .meme
+  ⬡│▸ .quote
+  ╰──────────➛`
   
   let reactmenu = `
-  ✦ ───『 *reaction* 』─── ⚝
-  ◈ .bully @tag
-  ◈ .cuddle @tag
-  ◈ .cry @tag
-  ◈ .hug @tag
-  ◈ .awoo @tag
-  ◈ .kiss @tag
-  ◈ .lick @tag
-  ◈ .pat @tag
-  ◈ .smug @tag
-  ◈ .bonk @tag
-  ◈ .yeet @tag
-  ◈ .blush @tag
-  ◈ .smile @tag
-  ◈ .wave @tag
-  ◈ .highfive @tag
-  ◈ .handhold @tag
-  ◈ .nom @tag
-  ◈ .bite @tag
-  ◈ .glomp @tag
-  ◈ .slap @tag
-  ◈ .kill @tag
-  ◈ .happy @tag
-  ◈ .wink @tag
-  ◈ .poke @tag
-  ◈ .dance @tag
-  ◈ .cringe @tag
-  ╰──────────⳹`
+  『 *ʀᴇᴀᴄᴛɪᴏɴ ᴍᴇɴᴜ* 』
+  ⬡│▸ .bully 
+  ⬡│▸ .cuddle 
+  ⬡│▸ .cry 
+  ⬡│▸ .hug 
+  ⬡│▸ .awoo 
+  ⬡│▸ .kiss 
+  ⬡│▸ .lick 
+  ⬡│▸ .pat 
+  ⬡│▸ .smug 
+  ⬡│▸ .bonk 
+  ⬡│▸ .yeet 
+  ⬡│▸ .blush 
+  ⬡│▸ .smile 
+  ⬡│▸ .wave 
+  ⬡│▸ .highfive 
+  ⬡│▸ .handhold 
+  ⬡│▸ .nom 
+  ⬡│▸ .bite 
+  ⬡│▸ .glomp 
+  ⬡│▸ .slap 
+  ⬡│▸ .kill 
+  ⬡│▸ .happy 
+  ⬡│▸ .wink 
+  ⬡│▸ .poke 
+  ⬡│▸ .dance 
+  ⬡│▸ .cringe 
+  ╰──────────➛`
   
   let dlmenu = `
-  ✦ ───『 *downloader* 』─── ⚝
-  ◈ .facebook <url>
-  ◈ .gdrive 🅟
-  ◈ .gitclone <url>
-  ◈ .igstalk
-  ◈ .instagram
-  ◈ .mediafire <url>
-  ◈ .mega
-  ◈ .modapk
-  ◈ .play <query>
-  ◈ .play2 <text>
-  ◈ .playvid <text>
-  ◈ .spotify
-  ◈ .tiktok <url>
-  ◈ .tiktokstalk
-  ◈ .twitter <url>
-  ◈ .ytmp3 <url>
-  ◈ .ytsearch
-  ◈ .ytmp4 <yt-link>
-  ◈ .wallpaper <query>
-  ╰──────────⳹`
+  『 *ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ* 』
+  ⬡│▸ .facebook 
+  ⬡│▸ .gdrive
+  ⬡│▸ .gitclone 
+  ⬡│▸ .igstalk
+  ⬡│▸ .instagram
+  ⬡│▸ .mediafire 
+  ⬡│▸ .mega
+  ⬡│▸ .modapk
+  ⬡│▸ .play 
+  ⬡│▸ .play2 
+  ⬡│▸ .playvid 
+  ⬡│▸ .spotify
+  ⬡│▸ .tiktok 
+  ⬡│▸ .tiktokstalk
+  ⬡│▸ .twitter 
+  ⬡│▸ .ytmp3 
+  ⬡│▸ .ytsearch
+  ⬡│▸ .ytmp4
+  ⬡│▸ .wallpaper
+  ╰──────────➛`
   
   let gamemenu = `
-  ✦ ───『 *game* 』─── ⚝
-  ◈ .slot <amount>
-  ◈ .chess [from to]
-  ◈ .chess delete
-  ◈ .chess join
-  ◈ .chess start
-  ◈ .delttt
-  ◈ .guessflag
-  ◈ .Maths <modes>
-  ◈ .ppt <rock/paper/scissors>
-  ◈ .tictactoe <tag number>
-  ╰──────────⳹`
+  『 *ɢᴀᴍᴇ ᴍᴇɴᴜ* 』
+  ⬡│▸ .slot <amount>
+  ⬡│▸ .chess [from to]
+  ⬡│▸ .chess delete
+  ⬡│▸ .chess join
+  ⬡│▸ .chess start
+  ⬡│▸ .delttt
+  ⬡│▸ .guessflag
+  ⬡│▸ .Maths <modes>
+  ⬡│▸ .ppt <rock/paper/scissors>
+  ⬡│▸ .tictactoe <tag number>
+  ╰──────────➛`
   let logomenu = `
-  ✦ ───『 *maker* 』─── ⚝
-  ◈ .blur
-  ◈ .difuminar2
-  ◈ .hornycard
-  ◈ .hornylicense
-  ◈ .gfx1
-  ◈ .gfx2
-  ◈ .gfx3
-  ◈ .gfx4
-  ◈ .gfx5
-  ◈ .gfx6
-  ◈ .gfx7
-  ◈ .gfx8
-  ◈ .gfx9
-  ◈ .gfx10
-  ◈ .gfx11
-  ◈ .gfx12
-  ◈ .simpcard
-  ◈ .itssostupid
-  ◈ .iss
-  ◈ .stupid
-  ◈ .tweet <comment>
-  ◈ .lolicon
-  ◈ .ytcomment <comment>
-  ╰──────────⳹`
+  『 *ᴀʀᴛ ᴍᴇɴᴜ* 』
+  ⬡│▸ .blur
+  ⬡│▸ .difuminar2
+  ⬡│▸ .hornycard
+  ⬡│▸ .hornylicense
+  ⬡│▸ .gfx1
+  ⬡│▸ .gfx2
+  ⬡│▸ .gfx3
+  ⬡│▸ .gfx4
+  ⬡│▸ .gfx5
+  ⬡│▸ .gfx6
+  ⬡│▸ .gfx7
+  ⬡│▸ .gfx8
+  ⬡│▸ .gfx9
+  ⬡│▸ .gfx10
+  ⬡│▸ .gfx11
+  ⬡│▸ .gfx12
+  ⬡│▸ .simpcard
+  ⬡│▸ .itssostupid
+  ⬡│▸ .iss
+  ⬡│▸ .stupid
+  ⬡│▸ .tweet
+  ⬡│▸ .lolicon
+  ⬡│▸ .ytcomment
+  ╰──────────➛`
   
   let stickermenu = `
-  ✦ ───『 *sticker* 』─── ⚝
-  ◈ .emojimix <emoji+emoji>
-  ◈ .getsticker
-  ◈ .smaker
-  ◈ .stickerwithmeme (caption|reply media)
-  ◈ .swmeme <url>
-  ◈ .swm(caption|reply media)
-  ◈ .sfull
-  ◈ .toimg <sticker>
-  ◈ .tovid
-  ◈ .trigger <@user>
-  ◈ .ttp
-  ◈ .ttp2
-  ◈ .ttp3
-  ◈ .ttp4
-  ◈ .ttp5
-  ◈ .attp
-  ◈ .attp2
-  ◈ .attp3
-  ◈ .take <name>|<author>
-  ╰──────────⳹`
+  『 *ꜱᴛɪᴄᴋᴇʀ ᴍᴇɴᴜ* 』
+  ⬡│▸ .emojimix
+  ⬡│▸ .getsticker
+  ⬡│▸ .smaker
+  ⬡│▸ .stickerwithmeme
+  ⬡│▸ .swmeme 
+  ⬡│▸ .swm
+  ⬡│▸ .sfull
+  ⬡│▸ .toimg 
+  ⬡│▸ .tovid
+  ⬡│▸ .trigger 
+  ⬡│▸ .ttp
+  ⬡│▸ .ttp2
+  ⬡│▸ .ttp3
+  ⬡│▸ .ttp4
+  ⬡│▸ .ttp5
+  ⬡│▸ .attp
+  ⬡│▸ .attp2
+  ⬡│▸ .attp3
+  ⬡│▸ .take
+  ╰──────────➛`
   
   let audiomenu = `
-  ✦ ───『 *audio* 』─── ⚝
-  ◈ .bass [vn]
-  ◈ .blown [vn]
-  ◈ .deep [vn]
-  ◈ .earrape [vn]
-  ◈ .fast [vn]
-  ◈ .fat [vn]
-  ◈ .nightcore [vn]
-  ◈ .reverse [vn]
-  ◈ .robot [vn]
-  ◈ .slow [vn]
-  ◈ .smooth [vn]
-  ◈ .tupai [vn]
-  ╰──────────⳹`
+  『 *ᴀᴜᴅɪᴏ ᴍᴇɴᴜ* 』
+  ⬡│▸ .bass
+  ⬡│▸ .blown
+  ⬡│▸ .deep
+  ⬡│▸ .earrape
+  ⬡│▸ .fast
+  ⬡│▸ .fat
+  ⬡│▸ .nightcore
+  ⬡│▸ .reverse
+  ⬡│▸ .robot
+  ⬡│▸ .slow
+  ⬡│▸ .smooth
+  ⬡│▸ .tupai
+  ╰──────────➛`
   
   
   let newsmenu = `
-  ✦ ───『 *news* 』─── ⚝
-  ◈ .news
-  ◈ .technews
-  ◈ .ndtv
-  ╰──────────⳹
+  『 *ɴᴇᴡꜱ ᴍᴇɴᴜ* 』
+  ⬡│▸ .news
+  ⬡│▸ .technews
+  ⬡│▸ .ndtv
+  ╰──────────➛
   `
   let economy = `
-  ✦ ───『 *economy* 』─── ⚝
-  ◈ .addgold <@user>
-  ◈ .addxp <@user>
-  ◈ .bank
-  ◈ .buych
-  ◈ .cock-fight <amount>
-  ◈ .buy
-  ◈ .buyall
-  ◈ .daily
-  ◈ .deposit
-  ◈ .gamble <amount> <color(red/black)>
-  ◈ .give credit [amount] [@tag]
-  ◈ .levelup
-  ◈ .rank
-  ◈ .rob
-  ◈ .roulette <amount> <color(red/black)>
-  ◈ .wallet
-  ◈ .withdraw
-  ◈ .work
-  ╰──────────⳹`
+  『 *ᴇᴄᴏɴᴏᴍʏ ᴍᴇɴᴜ* 』
+  ⬡│▸ .addgold 
+  ⬡│▸ .addxp 
+  ⬡│▸ .bank
+  ⬡│▸ .buych
+  ⬡│▸ .cock-fight
+  ⬡│▸ .buy
+  ⬡│▸ .buyall
+  ⬡│▸ .daily
+  ⬡│▸ .deposit
+  ⬡│▸ .gamble
+  ⬡│▸ .give credit
+  ⬡│▸ .levelup
+  ⬡│▸ .rank
+  ⬡│▸ .rob
+  ⬡│▸ .roulette
+  ⬡│▸ .wallet
+  ⬡│▸ .withdraw
+  ⬡│▸ .work
+  ╰──────────➛`
   let animemenu = `
-  ✦ ───『 *anime* 』─── ⚝
-  ◈ .anime
-  ◈ .akira
-  ◈ .akiyama
-  ◈ .anna
-  ◈ .asuna
-  ◈ .ayuzawa
-  ◈ .boruto
-  ◈ .chiho
-  ◈ .chitoge
-  ◈ .deidara
-  ◈ .erza
-  ◈ .elaina
-  ◈ .eba
-  ◈ .emilia
-  ◈ .hestia
-  ◈ .hinata
-  ◈ .inori
-  ◈ .isuzu
-  ◈ .itachi
-  ◈ .itori
-  ◈ .kaga
-  ◈ .kagura
-  ◈ .kaori
-  ◈ .keneki
-  ◈ .kotori
-  ◈ .kurumi
-  ◈ .madara
-  ◈ .mikasa
-  ◈ .miku
-  ◈ .minato
-  ◈ .naruto
-  ◈ .nezuko
-  ◈ .sagiri
-  ◈ .sasuke
-  ◈ .sakura
-  ◈ .manhwa
-  ◈ .waifu
-  ◈ .neko
-  ◈ .zerotwo
-  ◈ .loli
-  ◈ .pokedex <pokemon>
-  ◈ .trace
-  ╰──────────⳹
+  『 *ᴀɴɪᴍᴇ ᴍᴇɴᴜ* 』
+  ⬡│▸ .anime
+  ⬡│▸ .akira
+  ⬡│▸ .akiyama
+  ⬡│▸ .anna
+  ⬡│▸ .asuna
+  ⬡│▸ .ayuzawa
+  ⬡│▸ .boruto
+  ⬡│▸ .chiho
+  ⬡│▸ .chitoge
+  ⬡│▸ .deidara
+  ⬡│▸ .erza
+  ⬡│▸ .elaina
+  ⬡│▸ .eba
+  ⬡│▸ .emilia
+  ⬡│▸ .hestia
+  ⬡│▸ .hinata
+  ⬡│▸ .inori
+  ⬡│▸ .isuzu
+  ⬡│▸ .itachi
+  ⬡│▸ .itori
+  ⬡│▸ .kaga
+  ⬡│▸ .kagura
+  ⬡│▸ .kaori
+  ⬡│▸ .keneki
+  ⬡│▸ .kotori
+  ⬡│▸ .kurumi
+  ⬡│▸ .madara
+  ⬡│▸ .mikasa
+  ⬡│▸ .miku
+  ⬡│▸ .minato
+  ⬡│▸ .naruto
+  ⬡│▸ .nezuko
+  ⬡│▸ .sagiri
+  ⬡│▸ .sasuke
+  ⬡│▸ .sakura
+  ⬡│▸ .manhwa
+  ⬡│▸ .waifu
+  ⬡│▸ .neko
+  ⬡│▸ .zerotwo
+  ⬡│▸ .loli
+  ⬡│▸ .pokedex <pokemon>
+  ⬡│▸ .trace
+  ╰──────────➛
   `
-  let nsfwmenu = `
-  ✦ ───『 *nsfw* 』─── ⚝
-  ◈ .genshin
-  ◈ .swimsuit
-  ◈ .schoolswimsuit
-  ◈ .white
-  ◈ .barefoot
-  ◈ .touhou
-  ◈ .gamecg
-  ◈ .hololive
-  ◈ .uncensored
-  ◈ .sunglasses
-  ◈ .glasses
-  ◈ .weapon
-  ◈ .shirtlift
-  ◈ .chain
-  ◈ .fingering
-  ◈ .flatchest
-  ◈ .torncloth
-  ◈ .bondage
-  ◈ .demon
-  ◈ .wet
-  ◈ .pantypull
-  ◈ .headdress
-  ◈ .headphone
-  ◈ .tie
-  ◈ .anusview
-  ◈ .shorts
-  ◈ .stokings
-  ◈ .topless
-  ◈ .beach
-  ◈ .bunnygirl
-  ◈ .bunnyear
-  ◈ .idol
-  ◈ .vampire
-  ◈ .gun
-  ◈ .maid
-  ◈ .bra
-  ◈ .nobra
-  ◈ .bikini
-  ◈ .whitehair
-  ◈ .blonde
-  ◈ .pinkhair
-  ◈ .bed
-  ◈ .ponytail
-  ◈ .nude
-  ◈ .dress
-  ◈ .underwear
-  ◈ .foxgirl
-  ◈ .uniform
-  ◈ .skirt
-  ◈ .sex
-  ◈ .sex2
-  ◈ .sex3
-  ◈ .breast
-  ◈ .twintail
-  ◈ .spreadpussy
-  ◈ .tears
-  ◈ .seethrough
-  ◈ .breasthold
-  ◈ .drunk
-  ◈ .fateseries
-  ◈ .spreadlegs
-  ◈ .openshirt
-  ◈ .headband
-  ◈ .food
-  ◈ .close
-  ◈ .tree
-  ◈ .nipples
-  ◈ .erectnipples
-  ◈ .horns
-  ◈ .greenhair
-  ◈ .wolfgirl
-  ◈ .catgirl
-  ◈ .nsfw
-  ◈ .ass
-  ◈ .boobs
-  ◈ .lesbian
-  ◈ .pussy
-  ◈ .pack
-  ◈ .xvid
-  ◈ .xnxx
-  ╰──────────⳹`
-  
   let toolsmenu = `
-  ✦ ───『 *tools* 』─── ⚝
-  ◈ .nowa
-  ◈ .qr <text>
-  ◈ .qrcode <text>
-  ◈ .style <key> <text>
-  ◈ .weather *<place>*
-  ◈ .dehaze
-  ◈ .recolor
-  ◈ .hdr
-  ◈ .length <amount>
-  ◈ .tinyurl <link>
-  ◈ .shorten <link>
-  ◈ .tempmail
-  ◈ .shazam
-  ◈ .cal <equation>
-  ◈ .carbon <code>
-  ◈ .define <word>
-  ◈ .element
-  ◈ .google
-  ◈ .itunes
-  ◈ .lyrics
-  ◈ .imdb
-  ◈ .course
-  ◈ .randomcourse
-  ◈ .readmore <text1>|<text2>
-  ◈ .readvo
-  ◈ .removebg
-  ◈ .ss <url>
-  ◈ .ssf <url>
-  ◈ .subreddit
-  ◈ .telesticker  Ⓛ
-  ◈ .tourl
-  ◈ .translate <lang> <text>
-  ◈ .true
-  ◈ .tts <lang> <task>
-  ◈ .wa
-  ◈ .wikipedia
-  ╰──────────⳹`
+  『 *ᴛᴏᴏʟ ᴍᴇɴᴜ* 』
+  ⬡│▸ .nowa
+  ⬡│▸ .qr 
+  ⬡│▸ .qrcode 
+  ⬡│▸ .style  
+  ⬡│▸ .weather
+  ⬡│▸ .dehaze
+  ⬡│▸ .recolor
+  ⬡│▸ .hdr
+  ⬡│▸ .length <amount>
+  ⬡│▸ .tinyurl <link>
+  ⬡│▸ .shorten <link>
+  ⬡│▸ .tempmail
+  ⬡│▸ .shazam
+  ⬡│▸ .cal <equation>
+  ⬡│▸ .carbon <code>
+  ⬡│▸ .define <word>
+  ⬡│▸ .element
+  ⬡│▸ .google
+  ⬡│▸ .itunes
+  ⬡│▸ .lyrics
+  ⬡│▸ .imdb
+  ⬡│▸ .course
+  ⬡│▸ .randomcourse
+  ⬡│▸ .readmore
+  ⬡│▸ .readvo
+  ⬡│▸ .removebg
+  ⬡│▸ .ss 
+  ⬡│▸ .ssf 
+  ⬡│▸ .subreddit
+  ⬡│▸ .telesticker 
+  ⬡│▸ .tourl
+  ⬡│▸ .translate <lang> 
+  ⬡│▸ .true
+  ⬡│▸ .tts <lang> <task>
+  ⬡│▸ .wa
+  ⬡│▸ .wikipedia
+  ╰──────────➛`
   
   let Aimenu = `
-  ✦ ───『 *AI* 』─── ⚝
-  ◈ .bing
-  ◈ .dalle
-  ◈ .chatgpt
-  ◈ .toanime
-  ◈ .gitagpt
-  ◈ .tocartoon
-  ◈ .ai
-  ◈ .bard
-  ◈ .alexa
-  ◈ .bingimg
-  ◈ .gemini
-  ╰──────────⳹
+  『 *ᴀɪ ᴍᴇɴᴜ* 』
+  ⬡│▸ .bing
+  ⬡│▸ .dalle
+  ⬡│▸ .chatgpt
+  ⬡│▸ .toanime
+  ⬡│▸ .gitagpt
+  ⬡│▸ .tocartoon
+  ⬡│▸ .ai
+  ⬡│▸ .bard
+  ⬡│▸ .alexa
+  ⬡│▸ .bingimg
+  ⬡│▸ .gemini
+  ╰──────────➛
   `
-  let religionmenu = `
-  ✦ ───『 *religion* 』─── ⚝
-  ◈ .gita [verse_number]
-  ◈ .quran [surah_number|surah_name]
-  ╰──────────⳹`
-  
   let botmenu = `
-  ✦ ───『 *Bot Menu* 』─── ⚝
-  ◈ .ping
-  ◈ .runtime
-  ◈ .script
-  ◈ .server
-  ◈ .blocklist
-  ◈ .alive
-  ◈ .info
-  ◈ .owner
-  ◈ .totalfeature
-  ◈ .list
-  ◈ .messi
-  ◈ .cristianoronaldo
-  ◈ .cr7
-  ◈ .ppcouple
-  ◈ .ppcp
-  ◈ .pinterest
-  ◈ .reg <name.age>
-  ◈ .mysn
-  ◈ .unreg 
-  ╰──────────⳹
+  『 *ʙᴏᴛ ᴍᴇɴᴜ* 』
+  ⬡│▸ .ping
+  ⬡│▸ .runtime
+  ⬡│▸ .script
+  ⬡│▸ .server
+  ⬡│▸ .blocklist
+  ⬡│▸ .alive
+  ⬡│▸ .info
+  ⬡│▸ .owner
+  ⬡│▸ .totalfeature
+  ⬡│▸ .list
+  ⬡│▸ .messi
+  ⬡│▸ .cristianoronaldo
+  ⬡│▸ .cr7
+  ⬡│▸ .ppcouple
+  ⬡│▸ .ppcp
+  ⬡│▸ .pinterest
+  ⬡│▸ .reg
+  ⬡│▸ .mysn
+  ⬡│▸ .unreg 
+  ╰──────────➛
   `
   let pluginmenu = `
-  ✦ ───『 *plugin* 』─── ⚝
-  ◈ .plugins
-  ◈ .install <Gist URL>
-  ╰──────────⳹
+  『 *ᴘʟᴜɢɪɴꜱ ᴍᴇɴᴜ* 』
+  ⬡│▸ .plugins
+  ⬡│▸ .install
+  ╰──────────➛
   `
 
   const handler = async (m, {
@@ -537,58 +446,54 @@ import {
     global.fcontact = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
     const infoText = `
     ${botname} あ⁩ 」\n
-    Hii ${name} Senpai
+    Hii ${name} User
     
     *${ucpn}* 
    
-    乂───『 *U S E R*』───乂
-    ⛥ *Name:* ${name}
-    ⛥ *Gold:* ${credit}
-    ⛥ *Role:* ${role}
-    ⛥ *Level:* ${level}
-    ⛥ *Xp:* ${exp}
-    ╰──────────⳹
+    ✧───『  *ᴄᴜʀʀᴇɴᴛ ᴜꜱᴇʀ* 』───✧
+    |❃| *ɴᴀᴍᴇ:* ${name}
+    |❃| *ɢ-ɴᴀᴍᴇ:* ᴀꜱᴛᴀ ᴍᴅ
+    |❃| *ᴘʟᴀᴛꜰᴏʀᴍ:* ʟɪɴᴜx
+    ╰──────────➛
    
-    乂───『 *I N F O*』───乂
-    ⛥ *Bot Name:* ${botname}
-    ⛥ *Mode:* ${mode}
-    ⛥ *Platform:* ${platform}
-    ⛥ *Type:* NodeJs
-    ⛥ *Baileys:* Multi Device
-    ⛥ *Prefix:* [ *${usedPrefix}* ]
-    ⛥ *Uptime:* ${muptime}
-    ⛥ *Database:*  ${totalreg}
-    ╰──────────⳹
+    ✧───『 *ʙᴏᴛ ɪɴꜰᴏ* 』───✧
+    |❃| *ʙᴏᴛ ɴᴀᴍᴇ:* ${botname}
+    |❃| *ᴍᴏᴅᴇ:* ${mode}
+    |❃| *ᴘʟᴀᴛꜰᴏʀᴍ:* ${platform}
+    |❃| *ᴛʏᴘᴇ:* ɴᴏᴅᴇᴊꜱ
+    |❃| *ʙᴀɪʟᴇʏꜱ:* ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ
+    |❃| *ᴘʀᴇꜰɪx:* [ *${usedPrefix}* ]
+    |❃| *ᴜᴘᴛɪᴍᴇ:* ${muptime}
+    |❃| *ᴅᴀᴛᴀʙᴀꜱᴇ:*  ${totalreg}
+    ╰──────────➛
     
-    乂───『 *I N F O  C M D*』───乂 
-    │ *${totalfeatures}* Commands
-    ╰──────────⳹
+    ✧───『 *ᴄᴍᴅ* 』───✧ 
+    │ *${totalfeatures}* ᴘʟᴜɢɪɴꜱ
+
+    ╰──────────➛
      ${readMore}
 
-    乂───『 *INFO*』───乂 
-  │*Reply with the number*
-  │ to get respected Menu*
-  ╰───────⳹
-  ╭───────⳹
-  │ *1.* Bot Menu
-  │ *2.* Owner Menu
-  │ *3.* Group Menu
-  │ *4.* Fun Menu
-  │ *5.* Reaction Menu
-  │ *6.* Downloader Menu
-  │ *7.* Game Menu
-  │ *8.* Logo Menu
-  │ *9.* Sticker Menu
-  │ *10.* Audio Menu
-  │ *11.* News Menu
-  │ *12.* Economy Menu
-  │ *13.* Anime Menu
-  │ *14.* NSFW Menu
-  │ *15.* Tools Menu
-  │ *16.* AI Menu
-  │ *17.* Religion Menu
-  │ *18.* Plugin Menu
-  ╰───────⳹
+    ✧───『  *ɴᴏᴛɪᴄᴇ*  』───✧ 
+  │*ʀᴇᴘʟʏ ᴡɪᴛʜ ɴᴜᴍʙᴇʀ*
+  ╰───────➛
+  ╭───────➛
+  │ *1.* ʙᴏᴛ ᴍᴇɴᴜ
+  │ *2.* ᴏᴡɴᴇʀ ᴍᴇɴᴜ
+  │ *3.* ɢʀᴏᴜᴘ ᴍᴇɴᴜ
+  │ *4.* ꜰᴜɴ ᴍᴇɴᴜ
+  │ *5.* ʀᴇᴀᴄᴛɪᴏɴ ᴍᴇɴᴜ
+  │ *6.* ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ᴍᴇɴᴜ
+  │ *7.* ɢᴀᴍᴇ ᴍᴇɴᴜ
+  │ *8.* ʟᴏɢᴏ ᴍᴇɴᴜ
+  │ *9.* ꜱᴛɪᴄᴋᴇʀ ᴍᴇɴᴜ
+  │ *10.* ᴀᴜᴅɪᴏ ᴍᴇɴᴜ
+  │ *11.* ɴᴇᴡꜱ ᴍᴇɴᴜ
+  │ *12.* ᴇᴄᴏɴᴏᴍʏ ᴍᴇɴᴜ
+  │ *13.* ᴀɴɪᴍᴇ ᴍᴇɴᴜ
+  │ *15.* ᴛᴏᴏʟꜱ ᴍᴇɴᴜ
+  │ *16.* ᴀɪ ᴍᴇɴᴜ
+  │ *18.* ᴘʟᴜɢɪɴ ᴍᴇɴᴜ
+  ╰───────➛
  ${readMore}` 
 ;
 
@@ -618,75 +523,75 @@ import {
     const choice = m.text.trim();
     
     if (choice === "1") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://leadier-umbrellas.000webhostapp.com/asta-anime1.jpg' },
         caption: botmenu
       }, { quoted:fcontact });
       } else if (choice === "2") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://leadier-umbrellas.000webhostapp.com/asta-anime2.jpg' },
         caption: ownermenu
       }, { quoted:fcontact });
       } else if (choice === "3") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://leadier-umbrellas.000webhostapp.com/asta-anime3.jpg' },
         caption: groupmenu
       }, { quoted:fcontact });
       } else if (choice === "4") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: funmenu
       }, { quoted:fcontact });
       } else if (choice === "5") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: reactmenu
       }, { quoted:fcontact });
       } else if (choice === "6") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: dlmenu
       }, { quoted:fcontact });
       } else if (choice === "7") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: groupmenu
       }, { quoted:fcontact });
       } else if (choice === "8") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: logomenu
       }, { quoted:fcontact });
       } else if (choice === "9") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: stickermenu
       }, { quoted:fcontact });
       } else if (choice === "10") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: audiomenu
       }, { quoted:fcontact });
       } else if (choice === "11") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: newsmenu
       }, { quoted:fcontact });
       } else if (choice === "12") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: economy
       }, { quoted:fcontact });
       } else if (choice === "13") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: animemenu
       }, { quoted:fcontact });
       } else if (choice === "14") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: nsfwmenu
       }, { quoted:fcontact });
       } else if (choice === "15") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: toolsmenu
       }, { quoted:fcontact });
       } else if (choice === "16") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: Aimenu
       }, { quoted:fcontact });
       } else if (choice === "17") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: religionmenu
       }, { quoted:fcontact });
       } else if (choice === "18") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/Yv8MBql.jpeg' },
         caption: pluginmenu
       }, { quoted:fcontact });
       } else {
@@ -726,7 +631,7 @@ import {
     let h = isNaN(ms) ? "--" : Math.floor(ms / 3600000) % 24
     let m = isNaN(ms) ? "--" : Math.floor(ms / 60000) % 60
     let s = isNaN(ms) ? "--" : Math.floor(ms / 1000) % 60
-    return [ye, " *Years 🗓️*\n", mo, " *Month 🌙*\n", d, " *Days ☀️*\n", h, " *Hours 🕐*\n", m, " *Minute ⏰*\n", s, " *Second ⏱️*"].map(v => v.toString().padStart(2, 0)).join("")
+    return [ye, " *ʏᴇᴀʀꜱ*\n", mo, " *ᴍᴏɴᴛʜ*\n", d, " *ᴅᴀʏꜱ*\n", h, " *ʜᴏᴜʀꜱ*\n", m, " *ᴍɪɴꜱ*\n", s, " *ꜱᴇᴄᴏɴᴅꜱ*"].map(v => v.toString().padStart(2, 0)).join("")
    }
    
    function ucapan() {

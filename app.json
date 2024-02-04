@@ -1,29 +1,29 @@
 {
-  "name": "whatsapp-bot (GURU-BOT)",
+  "name": "Asta Md Whatsapp Bot",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/Guru322/GURU-BOT",
+  "repository": "https://github.com/Astropeda/Asta-Md",
   "stack": "container",
   "env": {
     "DATABASE_URL": {
-      "description": "your mongodb database url",
+      "description": "MONGODB URI",
       "required": false,
       "value": ""
     },
     "SESSION_ID": {
-      "description": "your session id",
+      "description": "SESSION ID",
       "required": true,
       "value": ""
     },
     "MODE": {
-      "description": "mode public or private",
+      "description": "PRIVATE OR PUBLIC",
       "required": true,
-      "value": "public"
+      "value": "private"
     },
     "PREFIX": {
-      "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
+      "description": "PUT ANY (!,*/$) DON'T PUT @",
       "required": false,
       "value": ""
     },
@@ -38,22 +38,22 @@
       "value": ""
     },
     "statusview": {
-      "description": "make it true if you want bot to view status",
+      "description": "TRUE OR FALSE TO VIEW STATUS",
       "required": false,
       "value": ""
     },
     "autoRead": {
-      "description": "make it true if you want bot to read messages",
+      "description": "TRUE OR FALSE TO READ YOUR CHATS",
       "required": false,
       "value": ""
     },
     "antidelete": {
-      "description": "bot will forward deleted messages if you make it true",
+      "description": "TRUE OR FALSE TO FOWARD DELETED MESSAGES",
       "required": false,
       "value": "false"
     },
      "REMOVEBG_KEY": {
-      "description": "your RemoveBg api key",
+      "description": "REMOVE BG API KEY HERE",
       "required": false,
       "value": ""
     }

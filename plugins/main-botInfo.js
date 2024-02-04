@@ -64,7 +64,7 @@ let infobt = `
 ▢ Telegram : 
   • t.me/i_want_to_be_isekaied (GURU) 
 ▢ YouTube : 
-  • https://youtube.com/@Asliguru
+  • astromedia0010@outlook.com
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}

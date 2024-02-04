@@ -7,16 +7,16 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['917605902011', 'GURU', true],
+  ['2348039607375', 'GURU', true],
   ['6281255369012', 'Ash', true], 
   [''] 
 ] //Number of owners
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['917605902011','32460248586'] 
-global.prems = ['917605902011', '32460248586', '919398758484']
-global.allowed = ['917605902011', '32460248586', '19152999993']
+global.mods = ['2348039607375','2349027862116'] 
+global.prems = ['2348039607375', '2349027862116', '919398758484']
+global.allowed = ['2348039607375', '2349027862116', '19152999993']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -39,8 +39,7 @@ global.APIs = { // API Prefix
   bg: 'http://bochil.ddns.net',
   fgmods: 'https://api-fgmods.ddns.net'
 }
-global.APIKeys = { // APIKey Here
-  // 'https://website': 'apikey'
+global.APIKeys = { 
   'https://api.xteam.xyz': 'd90a9e986e18778b',
   'https://api.lolhuman.xyz': '85faf717d0545d14074659ad',
   'https://api.neoxr.my.id': `${keysneoxr}`,	
@@ -49,19 +48,19 @@ global.APIKeys = { // APIKey Here
   'https://api-fgmods.ddns.net': 'fg-dylux'
 }
 
-// Sticker WM
-global.botname = 'ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ'
+
+global.botname = 'ᴀꜱᴛᴀ-ᴍᴅ'
 global.premium = 'true'
-global.packname = 'GURU┃ᴮᴼᵀ' 
-global.author = '@Asliguru' 
-global.menuvid = 'https://i.imgur.com/AjDzGgG.mp4'
-global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/asli_guru69\n' 
-global.dygp = 'https://chat.whatsapp.com/BFfD1C0mTDDDfVdKPkxRAA'
-global.fgsc = 'https://github.com/Guru322/GURU-BOT' 
-global.fgyt = 'https://youtube.com/@Asliguru'
-global.fgpyp = 'https://youtube.com/@Asliguru'
-global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg' 
-global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
+global.packname = 'ᴀꜱᴛᴀ-ᴍᴅ' 
+global.author = '@Astro' 
+global.menuvid = 'https://i.imgur.com/I5Kgbwa.mp4'
+global.igfg = '▢ Follow on Github\nhttps://github.com\Astropeda\n' 
+global.dygp = 'https://chat.whatsapp.com/L1XNePCPC8O6rw9JeQ0iLB'
+global.fgsc = 'https://github.com/Astropeda/Asta-Md' 
+global.fgyt = 'astromedia0010@outlook.com'
+global.fgpyp = 'astromedia0010@outlook.com'
+global.fglog = 'https://i.imgur.com/Yv8MBql.jpeg' 
+global.thumb = fs.readFileSync('./Assets/botpic.jpg')
 
 
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'

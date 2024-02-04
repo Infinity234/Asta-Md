@@ -1,5 +1,5 @@
 //GURU ka maal hai
-//https://github.com/Guru322/GURU-BOT
+//https://github.com/Astropeda/Asta-Md
 
 import fetch from 'node-fetch';
 

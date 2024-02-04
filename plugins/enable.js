@@ -210,7 +210,7 @@ case 'autobio':
      if (!/[01]/.test(command)) return m.reply(`
 ≡ List of options
 
-◈──『 *ADMIN*』───⳹
+⬡│▸──『 *ADMIN*』───➛
 ⛊ welcome
 ⛊ antilink
 ⛊ nsfw
@@ -219,17 +219,17 @@ case 'autobio':
 ⛊ jarvis
 ⛊ antispam
 ⛊ antitoxic
-╰──────────⳹ 
-◈──『 *USERS*』───⳹
+╰──────────➛ 
+⬡│▸──『 *USERS*』───➛
 ⛊ autolevelup
 ⛊ chatbot 
-╰──────────⳹
-◈──『 *OWNER*』───⳹
+╰──────────➛
+⬡│▸──『 *OWNER*』───➛
 ⛊ onlydm
 ⛊ grouponly
 ⛊ autotype
 ⛊ autobio
-╰──────────⳹
+╰──────────➛
 *📌 Example :*
 *${usedPrefix}on* welcome
 *${usedPrefix}off* welcome
