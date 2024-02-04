@@ -5,15 +5,7 @@
   </a>
 </p>
 <p align="center">
-<a href="https://github.com/Astropeda"><img title="Author" src="https://img.shields.io/badge/Asta-Md-black?style=for-the-badge&logo=telegram"></a>
 <p/>
-<p align="center">
-<a href="https://github.com/Astropeda?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Astropeda?label=Followers&style=social"></a>
-<a href="https://github.com/Astropeda/Asta-Md/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Astropeda/Asta-Md?&style=social"></a>
-<a href="https://github.com/Astropeda/Asta-Md/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Astropeda/Asta-Md?style=social"></a>
-<a href="https://github.com/Astropeda/Asta-Md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Astropeda/Asta-Md?label=Watching&style=social"></a>
-<a href="https://app.fossa.com/projects/git%2Bgithub.com%Astropeda%Asta-Md?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FAstropeda%2FAsta-Md.svg?type=shield"/></a>
-</p>
 
 ####  
 ᴀꜱᴛᴀ-ᴍᴅ- Simple Multi Device whatsapp bot.
